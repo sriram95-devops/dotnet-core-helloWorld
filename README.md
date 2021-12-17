@@ -1,4 +1,4 @@
-# .Net Core Hello World -dotnet
+# .Net Core Hello World --dotnet webapp
 
 This project is a sample .Net Core app. It highlights the following...
 
