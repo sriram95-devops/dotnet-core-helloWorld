@@ -23,5 +23,5 @@ steps:
     arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(BuildArtifactStagingDirectory'
+    PathtoPublish: $(Build.ArtifactStagingDirectory)'
     publishLocation: 'container'
